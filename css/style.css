@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 1330px; 
     margin: 0 auto;
 }
 
@@ -40,9 +40,15 @@ body {
     font-size: 16px;
 }
 
-.nav__item a {
+
+.nav__link {
     text-decoration: none;
     color: #333;
+    transition: all .3s ease;
+}
+
+.nav__link:hover {
+    color: #775fff;
 }
 
 .nav__search {
@@ -92,7 +98,6 @@ body {
 }
 
 .first__content {
-    padding-top: 150px;
     margin-right: 134px;
 
     max-width: 350px;
@@ -157,7 +162,13 @@ body {
     width: 306px;
     background-color: #5DB7DE;
     border-radius: 20px;
+    transition: all 0.3s ease;
     
+}
+
+.first__card:hover {
+    background-color: rgba(73, 143, 173, 0.9);
+    transform: scale(1.05);
 }
 
 .card__title {
@@ -176,3 +187,108 @@ body {
     font-weight: 700;
     line-height: 140%; /* 26.6px */
 }
+
+
+/* First End */
+
+
+/* Serivce Start */
+
+.service__wrapper {
+    display: flex;
+    
+    gap: 110px;
+}
+
+.service__title {
+    color:#333;
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%; /* 56px */
+}
+
+.service__item {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 30px;
+
+}
+
+.service__link {
+    width: 250px;
+
+    color: #3D348B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    transition: all .3s ease;
+}
+
+.service__link:hover {
+    color: #6c5ee9;
+    transform: scale(1.03);
+}
+
+.service__down {
+    display: flex;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+
+    color: #FFF;
+    background-color: #5DB7DE;
+
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 140%; /* 18.2px */
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.service__block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+
+.service__card {
+    padding: 30px 35px;
+    width: 379px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+    background-color: #3D348B;
+    color: #fff;
+    border-radius: 20px;
+    transition: all .3s ease;
+}
+
+.service__card:hover {
+    background-color: rgba(39, 23, 184, 0.813);
+    transform: scale(1.05);
+}
+
+.service__card-title {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 140%; /* 18.2px */
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.service__card-text {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 140%; /* 26.6px */
+}
+
+/* Service End */
+
+
