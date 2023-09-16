@@ -301,7 +301,7 @@ body {
 
 
 .about {
-
+    margin-bottom: 260px;
 }
 
 .about__title {
@@ -378,6 +378,11 @@ body {
 
     border-radius: 20px;
     background: #5DB7DE;
+    transition: all 1s ease;
+}
+
+.about__card:hover {
+    background-color: #574cbdcf;
 }
 
 .about__card-title {
@@ -396,3 +401,93 @@ body {
 }
 
 /* About End */
+
+
+/* News Start */
+
+
+.news {
+
+}
+
+.news__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news__title h3 {
+    color: #333;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%; /* 56px */
+}
+
+.news__title a {
+    display: block;
+    color:  #3D348B;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    position: relative;
+}
+
+.news__title a::after {
+    position: absolute;
+    content: "";
+    background-image: url(../img/news/arrow-right.png);
+    background-repeat: no-repeat;
+    border: none;
+    width: 100%;
+    height: 100%;
+    top: -5px;
+    right: -130px;
+}
+
+.news__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.news__card {
+    color: #333;
+}
+
+.news__card-img {
+    border-radius: 20px;
+
+}
+
+.news__card-data {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 140%; /* 18.2px */
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.news__card-title {
+    color: #333;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 140%; /* 26.6px */
+}
+
+.news__card-text {
+    overflow: hidden;
+    color: #333;
+    /* p/14r */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+
+/* News End */
