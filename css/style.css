@@ -5,12 +5,12 @@ body {
 }
 
 .container {
-    width: 1330px; 
+    max-width: 1330px; 
     margin: 0 auto;
 }
 
-.main {
-    background-color: #;
+.none {
+    display: none;
 }
 
 /* Header Start */
@@ -163,7 +163,7 @@ body {
 }
 
 .first__card {
-    width: 306px;
+    width:306px;
     background-color: #5DB7DE;
     border-radius: 20px;
     transition: all 0.3s ease;
@@ -329,6 +329,9 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 140%; /* 22.4px */
+    box-shadow: 0 0 5px rgb(184, 183, 183);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .about__live {
@@ -467,6 +470,7 @@ body {
 
 .news__card-img {
     border-radius: 20px;
+    width: 100%;
 
 }
 
@@ -503,12 +507,11 @@ body {
     display: flex;
     opacity: 0.85;
     background: #3D348B;
-    height: 120px;
+    height: 100%;
 }
 
 .footer__nav {
-    margin-top: 25px;
-    height: 70px;
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;

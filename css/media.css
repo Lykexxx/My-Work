@@ -1,0 +1,292 @@
+@media (max-width: 1440px) {
+    .news__title a::after {
+        right: 0;
+    }
+}
+
+@media (max-width: 1130px) {
+
+    .header__nav {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .first__blocks {
+        margin-top: 0;
+        padding: 30px 0;
+    }
+
+    .first__content {
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .first__title {
+        font-size: 40px;
+        text-align: center;
+        max-width: 300px;
+    }
+
+    .first__text {
+        text-align: center;
+    }
+
+    .first__about {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .first__about h3::before {
+        display: none;
+
+    }
+
+    .first__column {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .first__card {
+        width: 350px;
+        height: 350 px;
+    }
+
+    /* Service */
+
+    .service__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        flex-direction: column;
+
+    }
+
+    .service__block {
+        margin-top: 30px;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service__card {
+        height: 200px;
+        width: 200px;
+    }
+
+    /* Footer */
+    .footer__nav {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .service {
+        margin-bottom: 50px
+    }
+
+    /* About */
+
+    .about__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about__live {
+        gap: 15px;
+    }
+
+    .about__img {
+        width: 100%;
+    }
+
+    .about__wrapper {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .about__content {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header__nav {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .first__card {
+        height: 200px;
+        height: 200px;
+    }
+
+    .card__title {
+        padding: 20px 20px 50px;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* service */
+
+    .service__card {
+        height: 150px;
+        width: 150px;
+        gap: 50px;
+    }
+
+    .service__title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .service__link {
+        font-size: 12px;
+    }
+    
+    .service__down {
+        font-size: 10px;
+    }
+
+    .service__card-title {
+        font-size: 12px;
+    }
+
+    .service__card-text {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    /* about */
+
+    .about__video {
+
+        height: 100%;
+    }
+
+    .about__video::after {
+        left: 40%;
+        bottom: 40%;
+    }
+
+    .about__content {
+        width: 470px;
+    }
+
+    .about__card {
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 425px) {
+
+    .first__title {
+        font-size: 24px;
+    }
+
+    .first__text {
+        font-size: 13px;
+    }
+
+    .first__card {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .card__title {
+        padding: 20px;
+    }
+    
+    .card__text {
+        margin: 0 20px 20px;
+        font-size: 14px;
+    }
+
+    /* service */
+
+    .service__card {
+        height: 100px;
+        width: 100px;
+        gap: 25px;
+    }
+
+    .service__card-text {
+        margin-bottom: 10px;
+    }
+
+    /* About */
+
+
+    .about__content {
+        max-width: 300px;
+    }
+
+    .about__video {
+        max-width: 350px;
+    }
+
+    .about__live {
+        max-width: 400px;
+    }
+
+    .about__card {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .service__card {
+        height: 75px;
+        width: 75px;
+        gap: 5px;
+        
+    }
+
+    .service__card-text {
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+
+    .service__card-title {
+        font-size: 10px;
+    }
+
+    .about__content {
+        width: 220px;
+    }
+
+    .about__video {
+        width: 280px;
+    }
+
+    .about__card {
+        width: 250px;
+    }
+
+    .about__card-text {
+        font-size: 14px;
+    }
+
+    .about__video::after {
+        left: 35%;
+        bottom: 35%;
+    }
+
+}
