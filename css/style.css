@@ -73,7 +73,7 @@ body {
 .first {
     position: relative;
     min-height: 750px;
-    margin-bottom: 150px;
+    margin-bottom: 60px;
 
     color: white;
 
@@ -199,7 +199,7 @@ body {
 /* Serivce Start */
 
 .service {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .service__wrapper {
@@ -305,7 +305,7 @@ body {
 
 
 .about {
-    margin-bottom: 260px;
+    margin-bottom: 100px;
 }
 
 .about__title {
